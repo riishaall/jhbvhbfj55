@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Build & Push') {
             steps {
-                sh 'docker build -t aswin1079/app5:latest .'
-                sh 'docker push aswin1079/app5:latest'
+                sh 'docker build -t riishaall/app5:latest .'
+                sh 'docker push riishaall/app5:latest'
             }
         }
     }
